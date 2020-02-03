@@ -1,3 +1,5 @@
+### This file is to be put in the \animations folder along with the proccessed video file of the Defon Furs badge ###
+
 import uzlib
 import dcfurs
 
