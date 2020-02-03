@@ -17,8 +17,8 @@ import numpy as np
 
 ###### Editables #####
 
-OrigVid = "doomlvl1.avi"  # The original video file
-compressedFileName = 'doomlvl1.gz'  # The file that the program exports to.
+OrigVid = "OriginalVideoName.avi"  # The original video file
+compressedFileName = 'OutputFileName.gz'  # The file that the program exports to.
 targetFPS = 5  # Frames per second the badge will play the video as. Lower = smaller file. Badge can only play back about 5 frames per second.
 colorDepth = 24  # Can be 8 or 24. 8 = much smaller file size, but looks like hot garbage.
 brightness = 1  # Can be used to dim the video. Between 0.0 and 1.0. Sometimes brighter videos can be annoying.
