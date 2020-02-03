@@ -1,3 +1,4 @@
+### This plays the proccessed video file created by VideoToBadge.py ###
 ### This file is to be put in the \animations folder along with the proccessed video file of the Defon Furs badge ###
 
 import uzlib
@@ -32,7 +33,7 @@ class video:
         elif colorDepth == 24: frameSize = 336
 
         # Represents the positions of the missing pixels on the badge
-        # These are used to skip the spots in the display algorithm. Used to save ~14% on file size of the video
+        # These are used in the display algorithm to skip the missing pixels. Used to save ~14% on file size of the video.
         deadPixels0 = (0, 17) # The missing pixels on the first row
         deadPixels5 = (7, 8, 9, 10) # The missing pixels on row 5
         deadPixels6 = (0, 6, 7, 8, 9, 10, 11, 17) # The missing pixels on row 6
