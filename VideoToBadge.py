@@ -1,5 +1,3 @@
-# This trash is by Mech Lizard.
-
 # How this works:
 # 1. Put your video in the same folder as this script
 # 2. Change the OrigVid variable to the name of your video file with its extension and optionally compressedFileName
